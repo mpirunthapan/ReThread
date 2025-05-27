@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-*: initial;
+  --color-lightHover: #FCF4FF;
+  --shadow-white: 4px 4px 0 #fff;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-Outfit: Outfit, sans-serif !important;
+  --font-Ovo: Ovo, serif !important;
+  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
+}
+
